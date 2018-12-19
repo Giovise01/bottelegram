@@ -47,7 +47,7 @@
 		//ho ricevuto e che si trova nella variabile $text
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		if($text=="data"){
-			$text="la data è:".date("d.m.y);
+			$text="la data è:".date("d.m.y");
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 	
