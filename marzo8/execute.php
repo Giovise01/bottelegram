@@ -50,7 +50,9 @@
 			$text="la data è:".date("d.m.y");
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
-	
+		if($text=="foto"){
+			sendFoto($chatId,"foto.png",false,"la mia Foto",$api);
+		}
 		
 		//aggiungo il comando di invio
 		//e lo invio
