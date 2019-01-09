@@ -54,7 +54,7 @@
 			sendFoto($chatId,"foto.png",false,"la mia Foto",$api);
 		}
 		
-		if($text=="barz"||$text"/barz")
+		if($text=="barz"||$text"/barz");
 			$barz[0]="un uomo entra in un caffé, splash";
 			$barz[1]="sai cosa ci fa un negro su un albero? si scopa tua mamma";
 			$berz[2]="la sai la barzelletta del gay sull'albero? scendi che te la racconto";
