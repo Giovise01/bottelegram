@@ -61,9 +61,9 @@
 			$barz[2]="la sai la barzelletta del gay sull'albero? scendi che te la racconto";
 			$barz[3]="la differenza fra una torta e un ebreo? il tempo di cottura";
 			
-			$i= rand(0,3);
+			$i=rand(0,3);
 			
-			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
+			$parameters =array('chat_id' => $chatId, "text" => $barz[$i]);
 		}
 
 
