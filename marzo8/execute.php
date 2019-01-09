@@ -57,7 +57,7 @@
 		if($text=="barz"){
 			$barz[0]="un uomo entra in un caffé, splash";
 			$barz[1]="sai cosa ci fa un negro su un albero? si scopa tua mamma";
-			$berz[2]="la sai la barzelletta del gay sull'albero? scendi che te la racconto";
+			$barz[2]="la sai la barzelletta del gay sull'albero? scendi che te la racconto";
 			$barz[3]="la differenza fra una torta e un ebreo? il tempo di cottura";
 			
 			$i= rand(0,3);
