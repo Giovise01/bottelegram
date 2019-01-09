@@ -54,7 +54,7 @@
 			sendFoto($chatId,"foto.png",false,"la mia Foto",$api);
 		}
 		
-		if($text=="barz")
+		if($text=="barz"||$text=="/barz"){
 		{
 			$barz[0]="un uomo entra in un caffé, splash";
 			$barz[1]="sai cosa ci fa un negro su un albero? si scopa tua mamma";
@@ -63,7 +63,7 @@
 			
 			$i=rand(0,3);
 			
-			$parameters =array('chat_id' => $chatId, "text" => "ciao");
+			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 		}
 
 
