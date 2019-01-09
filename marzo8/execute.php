@@ -45,7 +45,7 @@
 		header("Content-Type: application/json");
 		//i parametri sono cosa voglio mandare indietro al mio utente, rimando il testo che
 		//ho ricevuto e che si trova nella variabile $text
-		$parameters = array('chat_id' => $chatId, "text" => "ciao");
+		$parameters = array('chat_id' => $chatId, "text" => $text);
 		if($text=="data"||$text=="/data"){
 			$text="la data è:".date("d.m.y");
 			$parameters = array('chat_id' => $chatId, "text" => $text);
@@ -54,7 +54,7 @@
 			sendFoto($chatId,"foto.png",false,"la mia Foto",$api);
 		}
 		
-		if($text=="barz"||$text=="/barz"){
+		/*if($text=="barz"||$text=="/barz"){
 		{
 			$barz[0]="un uomo entra in un caffé, splash";
 			$barz[1]="sai cosa ci fa un negro su un albero? si scopa tua mamma";
@@ -64,7 +64,7 @@
 			$i=rand(0,3);
 			
 			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
-		}
+		}*/
 
 
 		//aggiungo il comando di invio
