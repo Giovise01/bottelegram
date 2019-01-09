@@ -63,7 +63,7 @@
 			
 			//$i=rand(0,3);
 			
-			//$parameters = array('chat_id' => $chatId, "text" => $text);
+			$parameters = array('chat_id' => $chatId, "text" => $barz[0]);
 		}
 
 
