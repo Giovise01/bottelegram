@@ -55,7 +55,7 @@
 			$foto[1]="foto1.png";
 			$foto[2]="foto2.png";
 			$num=rand(0,2);
-			sendFoto($chatId,"foto.png",false,"la mia Foto",$api);
+			sendFoto($chatId,$foto[$num],false,"la mia Foto",$api);
 			
 		}
 		
