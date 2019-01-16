@@ -59,7 +59,7 @@
 			
 		}
 		
-		if($text == "barz")
+		if($text == "barz"||$text == "/barz")
 		{
 			$barz[0]="un uomo entra in un caffé, splash";
 			$barz[1]="sai cosa ci fa un negro su un albero? si scopa tua mamma";
@@ -75,7 +75,7 @@
 			sendAudio($chatId,"audio.mp3",false,"Il mio audio",$api);
 		}
 
-		if($text == "audio2"){
+		if($text == "audio2"||$text == "/audio1){
 			sendAudio($chatId,"oh_9od_Thasupreme.mp3",false,"oh_9od",$api);
 			}
 		
