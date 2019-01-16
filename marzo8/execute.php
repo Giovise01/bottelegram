@@ -75,7 +75,7 @@
 			sendAudio($chatId,"audio.mp3",false,"Il mio audio",$api);
 		}
 
-		if($text == "audio2"||$text == "/audio1){
+		if($text == "audio2"||$text == "/audio1"){
 			sendAudio($chatId,"oh_9od_Thasupreme.mp3",false,"oh_9od",$api);
 			}
 		
