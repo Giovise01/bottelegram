@@ -71,7 +71,7 @@
 		}
 
 		if($text == "audio2"){
-			sendAudio($chatId,"oh_9od_Thasupreme,false,"oh_9od",$api);
+			sendAudio($chatId,"oh_9od_Thasupreme.mp3",false,"oh_9od",$api);
 			}
 
 
