@@ -73,7 +73,10 @@
 		if($text == "audio2"){
 			sendAudio($chatId,"oh_9od_Thasupreme.mp3",false,"oh_9od",$api);
 			}
-
+		
+		if($text == "doc"){
+			sendDocument($chatId,"testo.pdf",false,"il mio documento",$api);
+		}
 
 		//aggiungo il comando di invio
 		//e lo invio
