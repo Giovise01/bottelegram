@@ -52,6 +52,10 @@
 		}
 		if($text=="foto"||$text=="/foto"){
 			sendFoto($chatId,"foto.png",false,"la mia Foto",$api);
+			$foto[0]="foto.png";
+			$foto[1]="foto1.png";
+			$foto[2]="foto2.png";
+			
 		}
 		
 		if($text == "barz")
