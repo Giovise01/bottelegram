@@ -70,6 +70,10 @@
 			sendAudio($chatId,"audio.mp3",false,"Il mio audio",$api);
 		}
 
+		if($text == "audio2"){
+			sendAudio($chatId,"oh_9od_Thasupreme,false,"oh_9od",$api);
+			}
+
 
 		//aggiungo il comando di invio
 		//e lo invio
